@@ -23,6 +23,10 @@ services:
   packages:
   - name: SIQAGitProject8JulyProject
     version: "1.0"
+- serviceName: project.siqagitproject8july.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBNewInsert
+  packages:
+  - name: SIQAGitProject8JulyProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.SIQAGitProject8JulyProject.project.siqagitproject8july.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
   : LOCAL_TRANSACTION
